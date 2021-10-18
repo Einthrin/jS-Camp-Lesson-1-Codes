@@ -33,8 +33,9 @@ console.log(euroDun)
 let konutKredileri = ["Konut Kredisi","Emlak Konut Kredisi","Kamu Konut Kredisi","Özel Konut Kredileri"]
 
 console.log("<ul>")
-for (let i = 0;i<konutKredileri.length;i++) {   // Eğer i<3 yazarsak veri sayısını sabitleriz.
-                                                //Ama eğer 'i<konutKredileri.length' yazarsak yeni veri eklenince otomatik olarak döngüye eklenir.
+for (let i = 0;i<konutKredileri.length;i++) {
+    // Eğer i<3 yazarsak veri sayısını sabitleriz.
+    //Ama eğer 'i<konutKredileri.length' yazarsak yeni veri eklenince otomatik olarak döngüye eklenir.
     console.log("<li>" + konutKredileri[i] + "</li>")   // Yanda ise 'li' etiketi içerisinde 'konutKredileri' dizisinin çıktısını alırız.
 }
 // for döngüsü ile 'li' komutunu kullanarak 'li' komutu içinde 
